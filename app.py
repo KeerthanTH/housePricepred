@@ -16,7 +16,7 @@ st.write('Choose a machine learning model to predict house prices based on the A
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r"C:\vscode\coding\VSCODE\Upgrad\webml\housePricepred\Ames_Housing_Subset(in).csv")
+    data = pd.read_csv("Ames_Housing_Subset(in).csv")
     return data
 
 data = load_data()
